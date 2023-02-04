@@ -9,6 +9,6 @@ export default class Header extends Component {
 
   render(): void {
     super.render();
-    this.domElement.innerHTML = `<h1>${this.#text}<h1>`;
+    this.domElement.innerHTML = `<img src=${this.#text} alt=logo-pokemon>`;
   }
 }
