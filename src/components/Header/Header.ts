@@ -1,5 +1,5 @@
 import Component from "../Component/Component.js";
-// App
+
 export default class Header extends Component {
   #text: string;
   constructor(parentElement: HTMLElement, text: string) {

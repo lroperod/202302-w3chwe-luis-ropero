@@ -1,6 +1,6 @@
 import Component from "../Component/Component.js";
 import Header from "../Header/Header.js";
-// App
+
 export default class App extends Component {
   #header: Header;
   constructor(parentElement: HTMLElement | undefined) {
